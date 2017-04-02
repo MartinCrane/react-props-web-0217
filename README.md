@@ -2,7 +2,7 @@
 
 ## Overview
 
-We'll cover props and show how they help us make our components more dynamic and reusable. 
+We'll cover props and show how they help us make our components more dynamic and reusable.
 
 ## Objectives
 1. Explain how props make our components more dynamic and reusable
@@ -10,7 +10,7 @@ We'll cover props and show how they help us make our components more dynamic and
 2. Declare default prop values in ES2015 classes as well as `React.createClass()`
 3. Render a component with props and default props
 
-
+//xo
 ## What are props?
 Props allow us to pass values into our components. These values can be anything: a string, an array, functions, and so on. They give us the opportunity to make our components more dynamic, and a **lot more** reusable. For example, say we have a `<MovieCard />` component. A movie has a title, a poster image, and many other attributes (or **prop**erties!). Our component would kind of look like this, with _hardcoded_ data:
 
@@ -67,7 +67,7 @@ ReactDOM.render(
   <MovieCard
     title="Mad Max: Fury Road"
     poster="http://image.tmdb.org/t/p/w342/kqjL17yufvn9OVLyXYpvtyrFfak.jpg"
-    genres={['Action', 'Adventure', 'Science Fiction', 'Thriller']} 
+    genres={['Action', 'Adventure', 'Science Fiction', 'Thriller']}
   />,
   document.getElementById('main')
 );
@@ -82,7 +82,7 @@ ReactDOM.render(
   <MovieCard
     title="Mad Max: Fury Road"
     poster="http://image.tmdb.org/t/p/w342/kqjL17yufvn9OVLyXYpvtyrFfak.jpg"
-    genres={madMaxGenres} 
+    genres={madMaxGenres}
   />,
   document.getElementById('main')
 );
@@ -116,7 +116,7 @@ ReactDOM.render(
   <MovieCard
     title="Jurassic World"
     poster="http://image.tmdb.org/t/p/w342/jjBgi2r5cRt36xF6iNUEhzscEcb.jpg"
-    genres={jurassicWorldGenres} 
+    genres={jurassicWorldGenres}
   />,
   document.getElementById('main')
 );
